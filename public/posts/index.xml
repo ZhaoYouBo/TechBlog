@@ -2,18 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 赵容博的个人博客</title>
-    <link>http://localhost:1313/TechBlog/posts/</link>
+    <link>https://zhaoyoubo.github.io/TechBlog/posts/</link>
     <description>Recent content in Posts on 赵容博的个人博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 12 May 2025 13:45:56 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/TechBlog/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/TechBlog/posts/my-first-post/</link>
-      <pubDate>Mon, 12 May 2025 13:45:56 +0800</pubDate>
-      <guid>http://localhost:1313/TechBlog/posts/my-first-post/</guid>
-      <description>&lt;p&gt;## 简介&lt;/p&gt;&#xA;&lt;p&gt;这是 &lt;strong&gt;粗体&lt;/strong&gt; 文本，这是 &lt;em&gt;斜体&lt;/em&gt; 文本。&lt;/p&gt;&#xA;&lt;p&gt;访问 &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; 网站！&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://zhaoyoubo.github.io/TechBlog/posts/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
