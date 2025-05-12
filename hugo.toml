@@ -1,4 +1,4 @@
 baseURL = 'https://zhaoyoubo.github.io/TechBlog/'
 languageCode = 'zh-cn'
 title = '赵容博的个人博客'
-theme = 'ananke'
+theme = ["github.com/D-Sketon/hugo-theme-reimu"]

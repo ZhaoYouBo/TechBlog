@@ -2,14 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zhaoyoubo.github.io/TechBlog/posts/ai%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88/</loc>
-    <lastmod>2025-05-12T16:17:45+08:00</lastmod>
-  </url><url>
-    <loc>https://zhaoyoubo.github.io/TechBlog/posts/</loc>
-    <lastmod>2025-05-12T16:17:45+08:00</lastmod>
+    <loc>https://zhaoyoubo.github.io/TechBlog/post/hello/</loc>
+    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
     <loc>https://zhaoyoubo.github.io/TechBlog/</loc>
-    <lastmod>2025-05-12T16:17:45+08:00</lastmod>
+    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://zhaoyoubo.github.io/TechBlog/archives/</loc>
+    <lastmod>2022-07-26T21:46:25+08:00</lastmod>
+  </url><url>
+    <loc>https://zhaoyoubo.github.io/TechBlog/about/</loc>
+    <lastmod>2022-06-09T20:12:52+08:00</lastmod>
+  </url><url>
+    <loc>https://zhaoyoubo.github.io/TechBlog/friend/</loc>
+    <lastmod>2022-06-09T20:12:52+08:00</lastmod>
   </url><url>
     <loc>https://zhaoyoubo.github.io/TechBlog/categories/</loc>
   </url><url>
