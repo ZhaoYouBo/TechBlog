@@ -3,6 +3,7 @@
   <channel>
     <title>Tags on 赵容博的个人博客</title>
     <link>https://zhaoyoubo.github.io/TechBlog/tags/</link>
+<<<<<<< HEAD
     <description>Recent content from 赵容博的个人博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
@@ -17,5 +18,11 @@
     
 
     
+=======
+    <description>Recent content in Tags on 赵容博的个人博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <atom:link href="https://zhaoyoubo.github.io/TechBlog/tags/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> 0f3349a400d0fc0885041b40bf88ed668d6264aa
   </channel>
 </rss>
