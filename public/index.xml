@@ -6,7 +6,14 @@
     <description>Recent content on 赵容博的个人博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Mon, 12 May 2025 16:17:45 +0800</lastBuildDate>
     <atom:link href="https://zhaoyoubo.github.io/TechBlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI算法工程师</title>
+      <link>https://zhaoyoubo.github.io/TechBlog/posts/ai%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88/</link>
+      <pubDate>Mon, 12 May 2025 16:17:45 +0800</pubDate>
+      <guid>https://zhaoyoubo.github.io/TechBlog/posts/ai%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88/</guid>
+      <description>&lt;h1 id=&#34;ai-算法工程师视觉感知方向&#34;&gt;AI 算法工程师（视觉感知方向）&lt;/h1&gt;&#xA;&lt;h2 id=&#34;岗位职责&#34;&gt;岗位职责&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;相机硬件的选型、调试和标定等相关工作；&lt;/li&gt;&#xA;&lt;li&gt;设计、开发和优化视觉算法和模型，以解决图像识别、目标检测、目标跟踪、图像分割等问题；&lt;/li&gt;&#xA;&lt;li&gt;开发和推进基于深度学习的单目深度拟合、双目立体匹配算法应用落地；&lt;/li&gt;&#xA;&lt;li&gt;调研和推进 3D 人体姿态估计算法、6D 物体姿态估计算法的评估和应用；&lt;/li&gt;&#xA;&lt;li&gt;跟进基于深度学习的前沿视觉 SLAM 算法；&lt;/li&gt;&#xA;&lt;li&gt;负责视觉算法开发、调试、部署和落地；&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;任职要求&#34;&gt;任职要求&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;熟悉相机 sensor 工作原理、ISP 图像处理流程、相机基本参数及标定, 了解图像质量的主客观评估标准；&lt;/li&gt;&#xA;&lt;li&gt;熟悉主流的神经网络架构(ResNet、ViT 等)， 目标检测算法(如 YOLO、DETR 等)， 语义分割算法(Mask2Former、SAM 等)；&lt;/li&gt;&#xA;&lt;li&gt;熟悉至少一种常用的单目深度拟合算法(如 DepthAnything 等), 至少熟悉一种双目立体匹配算法(如 LightStereo 等)；&lt;/li&gt;&#xA;&lt;li&gt;了解主流的 3D 人体姿态估计算法(如 PoseFormer 等)或 6D 物体姿态估计算法(如 FoundationPose 等)的优先；&lt;/li&gt;&#xA;&lt;li&gt;了解主流的端到端视觉 SLAM 算法(如 DROID-SLAM 等)， 了解基于 Gaussian Splatting 的 SLAM(如 SplaTAM)的优先；&lt;/li&gt;&#xA;&lt;li&gt;熟练掌握 pytorch 等框架，熟悉常见的深度学习模型，并掌握相关的实现、训练、调优、部署等工作；&lt;/li&gt;&#xA;&lt;li&gt;熟悉 C++和 Python 编程语言，具备良好的编程习惯和较好的工程化能力；&lt;/li&gt;&#xA;&lt;li&gt;具有计算机科学、电子工程或相关专业全日制本科及以上学历； 2 年及以上工作经验。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h1 id=&#34;学习计划&#34;&gt;学习计划&lt;/h1&gt;&#xA;&lt;h2 id=&#34;第一阶段硬件基础与算法框架1-3个月&#34;&gt;第一阶段：硬件基础与算法框架（1-3个月）&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;目标&lt;/strong&gt;：掌握相机硬件全流程与深度学习基础能力&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;相机硬件专项&lt;/strong&gt;（4周）&#xA;&lt;ul&gt;&#xA;&lt;li&gt;学习《Computer Vision: Algorithms and Applications》第2章（成像原理）&lt;/li&gt;&#xA;&lt;li&gt;实践OpenCV相机标定模块（张正友标定法）&lt;/li&gt;&#xA;&lt;li&gt;使用MATLAB/ROS工具进行ISP流程模拟实验&lt;/li&gt;&#xA;&lt;li&gt;搭建图像质量评估体系（PSNR/SSIM → 新指标：LPIPS/CSIQ）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;算法框架升级&lt;/strong&gt;（4周）&#xA;&lt;ul&gt;&#xA;&lt;li&gt;深度学习框架：&#xA;&lt;ul&gt;&#xA;&lt;li&gt;PyTorch高级特性（分布式训练/量化部署）&lt;/li&gt;&#xA;&lt;li&gt;ONNX/TensorRT部署实战（YOLOv8部署案例）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;搭建算法基线：&#xA;&lt;ul&gt;&#xA;&lt;li&gt;复现YOLOv8改进策略（损失函数/标签分配）&lt;/li&gt;&#xA;&lt;li&gt;实现Mask2Former的实例分割pipeline&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;第二阶段立体视觉与深度估计4-6个月&#34;&gt;第二阶段：立体视觉与深度估计（4-6个月）&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;目标&lt;/strong&gt;：建立三维视觉技术栈&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
