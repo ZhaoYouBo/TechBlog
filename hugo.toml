@@ -1,0 +1,4 @@
+baseURL = 'https://example.org/'
+languageCode = 'zh-cn'
+title = '赵容博的个人博客'
+theme = 'ananke'
