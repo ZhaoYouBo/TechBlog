@@ -130,6 +130,6 @@ MARKDOWN1. 必读书目：
 
 ---
 
-> 作者: 赵容博  
+> 作者: ZhaoRongBo  
 > URL: https://zhaoyoubo.github.io/TechBlog/posts/38d6274/  
 

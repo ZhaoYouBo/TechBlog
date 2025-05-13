@@ -5,7 +5,7 @@ date: 2025-05-13T14:06:38+08:00
 slug: 3e78a2f
 draft: false
 author:
-  name: 赵容博
+  name: ZhaoRongBo
   link:
   email:
   avatar:

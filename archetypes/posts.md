@@ -3,9 +3,9 @@ title: {{ replace .TranslationBaseName "-" " " | title }}
 subtitle:
 date: {{ .Date }}
 slug: {{ substr .File.UniqueID 0 7 }}
-draft: true
+draft: false
 author:
-  name:
+  name: ZhaoRongBo
   link:
   email:
   avatar:
@@ -41,5 +41,3 @@ repost:
 ---
 
 <!--more-->
-
-<!-- Place resource files in the current article directory and reference them using relative paths, like this: `![alt](images/screenshot.jpg)`. -->

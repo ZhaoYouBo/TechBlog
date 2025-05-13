@@ -355,7 +355,7 @@ mainSections = []
 
   # Author Configuration
   [params.author]
-    name = "赵容博"
+    name = ""
     email = ""
     link = ""
     avatar = ""

@@ -3,9 +3,9 @@ title: {{ replace .TranslationBaseName "-" " " | title }}
 subtitle:
 date: {{ .Date }}
 slug: {{ substr .File.UniqueID 0 7 }}
-draft: false
+draft: true
 author:
-  name: 赵容博
+  name:
   link:
   email:
   avatar:

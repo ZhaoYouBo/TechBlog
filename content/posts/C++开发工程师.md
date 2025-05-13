@@ -5,10 +5,10 @@ date: 2025-05-13T14:36:02+08:00
 slug: 38d6274
 draft: false
 author:
-  name: 赵容博
+  name: ZhaoRongBo
   link:
   email:
-  avatar:
+  avatar: 
 description:
 keywords:
 license:

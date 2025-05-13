@@ -8,7 +8,7 @@
   {{- end -}}
 
   {{- if not $src -}}
-    {{- errorf "Icon src is missing: %s" templates.Current.Filename -}}
+    {{- errorf "Icon src is missing" -}}
   {{- end -}}
 
   {{- if (urls.Parse $src).Host | not -}}
