@@ -15,9 +15,9 @@ license:
 comment: false
 weight: 0
 tags:
-  - draft
+  - 计划
 categories:
-  - draft
+  - 计划
 hiddenFromHomePage: false
 hiddenFromSearch: false
 hiddenFromRelated: false
