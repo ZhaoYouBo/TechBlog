@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="robots" content="noodp" />
+    <title>C&#43;&#43;开发工程师 - 赵容博的博客</title><meta name="author" content="赵容博">
+<meta name="description" content=""><meta name="keywords" content='draft'>
+  <meta itemprop="name" content="C&#43;&#43;开发工程师">
+  <meta itemprop="datePublished" content="2025-05-13T14:36:02+08:00">
+  <meta itemprop="dateModified" content="2025-05-13T14:36:02+08:00">
+  <meta itemprop="wordCount" content="143">
+  <meta itemprop="keywords" content="Draft"><meta property="og:url" content="http://localhost:1313/posts/38d6274/">
+  <meta property="og:site_name" content="赵容博的博客">
+  <meta property="og:title" content="C&#43;&#43;开发工程师">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-05-13T14:36:02+08:00">
+    <meta property="article:modified_time" content="2025-05-13T14:36:02+08:00">
+    <meta property="article:tag" content="Draft">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="C&#43;&#43;开发工程师">
+<meta name="application-name" content="FixIt">
+<meta name="apple-mobile-web-app-title" content="FixIt"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" type="text/html" href="http://localhost:1313/posts/38d6274/" title="C&#43;&#43;开发工程师 - 赵容博的博客" /><link rel="prev" type="text/html" href="http://localhost:1313/posts/3e78a2f/" title="AI算法工程师" /><link rel="alternate" type="text/markdown" href="http://localhost:1313/posts/38d6274/index.md" title="C++开发工程师 - 赵容博的博客"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "C++开发工程师",
+    "inLanguage": "en-us",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "http:\/\/localhost:1313\/posts\/38d6274\/"
+    },"genre": "posts","keywords": "draft","wordcount":  143 ,
+    "url": "http:\/\/localhost:1313\/posts\/38d6274\/","datePublished": "2025-05-13T14:36:02+08:00","dateModified": "2025-05-13T14:36:02+08:00","publisher": {
+      "@type": "Organization",
+      "name": ""},"author": {
+        "@type": "Person",
+        "name": "赵容博"
+      },"description": ""
+  }
+  </script><script src="/js/head/color-scheme.min.js"></script></head>
+  <body data-header-desktop="sticky" data-header-mobile="auto"><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
+  <div class="header-wrapper">
+    <div class="header-title">
+      <a href="/" title="赵容博的博客"><span class="header-title-text">赵容博的博客</span></a><span class="header-subtitle"></span></div>
+    <nav>
+      <ul class="menu"><li class="menu-item">
+              <a class="menu-link" href="/archives/"><i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i> Archives</a></li><li class="menu-item">
+              <a class="menu-link" href="/categories/"><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> Categories</a></li><li class="menu-item">
+              <a class="menu-link" href="/tags/"><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> Tags</a></li><li class="menu-item delimiter"></li><li class="menu-item theme-switch" title="切换主题">
+          <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+        </li></ul>
+    </nav>
+  </div>
+</header><header class="mobile animate__faster" id="header-mobile">
+  <div class="header-container">
+    <div class="header-wrapper">
+      <div class="header-title">
+        <a href="/" title="赵容博的博客"><span class="header-title-text">赵容博的博客</span></a><span class="header-subtitle"></span></div>
+      <div class="menu-toggle" id="menu-toggle-mobile">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <nav>
+      <ul class="menu" id="menu-mobile"><li class="menu-item"><a class="menu-link" href="/archives/"><i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i> Archives</a></li><li class="menu-item"><a class="menu-link" href="/categories/"><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> Categories</a></li><li class="menu-item"><a class="menu-link" href="/tags/"><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> Tags</a></li><li class="menu-item menu-system">
+          <span class="menu-system-item theme-switch" title="切换主题"><i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></span></li>
+      </ul>
+    </nav>
+  </div>
+</header><main class="container"><aside class="aside-collection animate__animated animate__fadeIn animate__faster" aria-label="合集"></aside>
+
+  <article class="page single">
+    <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span title="转载" class="icon-repost"><i class="fa-solid fa-share fa-fw" aria-hidden="true"></i></span><span>C&#43;&#43;开发工程师</span>
+      </h1></div><div class="post-meta">
+      <div class="post-meta-line"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
+      赵容博</span></span><span class="post-included-in">&nbsp;收录于 <a href="/categories/draft/" class="post-category" title="分类 - Draft"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> Draft</a></span></div><div class="post-meta-line"><span title="发布于 2025-05-13 14:36:02"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2025-05-13">2025-05-13</time></span>&nbsp;<span title="143 字"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>约 200 字</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>预计阅读 1 分钟</span>&nbsp;</div>
+    </div><div class="details toc" id="toc-static" data-kept="false">
+        <div class="details-summary toc-title">
+          <span>目录</span>
+          <span><i class="details-icon fa-solid fa-angle-right" aria-hidden="true"></i></span>
+        </div>
+        <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#c开发工程师">C++开发工程师</a>
+      <ul>
+        <li><a href="#岗位职责">岗位职责</a></li>
+        <li><a href="#任职要求">任职要求</a></li>
+      </ul>
+    </li>
+    <li><a href="#学习计划">学习计划</a>
+      <ul>
+        <li><a href="#第一阶段基础强化3个月">第一阶段：基础强化（3个月）</a></li>
+        <li><a href="#第二阶段核心技术突破3-5个月">第二阶段：核心技术突破（3-5个月）</a></li>
+        <li><a href="#第三阶段扩展技能2-3个月">第三阶段：扩展技能（2-3个月）</a></li>
+        <li><a href="#第四阶段求职准备1个月">第四阶段：求职准备（1个月）</a></li>
+        <li><a href="#学习资源推荐">学习资源推荐</a></li>
+        <li><a href="#注意事项">注意事项</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+      </div><div class="content" id="content"><h2 class="heading-element" id="c开发工程师"><span>C++开发工程师</span>
+  <a href="#c%e5%bc%80%e5%8f%91%e5%b7%a5%e7%a8%8b%e5%b8%88" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><h3 class="heading-element" id="岗位职责"><span>岗位职责</span>
+  <a href="#%e5%b2%97%e4%bd%8d%e8%81%8c%e8%b4%a3" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ol>
+<li>负责公司软件架构的升级，优化；</li>
+<li>负责公司 API 的集成、测试，并持续优化；</li>
+<li>负责产品软件的升级、降级、系统修复；</li>
+<li>与产品团队配合，完成 B 端大客户的定制化需求。</li>
+</ol>
+<h3 class="heading-element" id="任职要求"><span>任职要求</span>
+  <a href="#%e4%bb%bb%e8%81%8c%e8%a6%81%e6%b1%82" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ol>
+<li>3 年及以上相关工作经验；</li>
+<li>熟练掌握 Linux 环境下的 C/C++、Python、Shell 语言；</li>
+<li>熟练掌握 grpc 框架（必须掌握）；</li>
+<li>熟悉操作系统原理，数据结构，网络编程，ros1、ros2；</li>
+<li>了解视频传输，Docker 的优先, 有 API 设计经验的优先。</li>
+</ol>
+<h2 class="heading-element" id="学习计划"><span>学习计划</span>
+  <a href="#%e5%ad%a6%e4%b9%a0%e8%ae%a1%e5%88%92" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><h3 class="heading-element" id="第一阶段基础强化3个月"><span>第一阶段：基础强化（3个月）</span>
+  <a href="#%e7%ac%ac%e4%b8%80%e9%98%b6%e6%ae%b5%e5%9f%ba%e7%a1%80%e5%bc%ba%e5%8c%963%e4%b8%aa%e6%9c%88" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ol>
+<li><strong>C++核心技能（1.5个月）</strong></li>
+</ol>
+<ul>
+<li>学习现代C++（C++17/20）：
+<ul>
+<li>智能指针、Lambda表达式、右值引用</li>
+<li>STL容器与算法优化（每天1-2小时）</li>
+<li>并发编程（thread/mutex/condition_variable）</li>
+</ul>
+</li>
+<li>实战项目：开发一个内存池管理器（2周）</li>
+</ul>
+<ol>
+<li><strong>Linux环境开发（1个月）</strong></li>
+</ol>
+<ul>
+<li>Shell脚本编程：
+<ul>
+<li>掌握awk/sed/grep高级用法</li>
+<li>编写自动化部署脚本（每周2个实战案例）</li>
+</ul>
+</li>
+<li>系统编程：
+<ul>
+<li>文件I/O、进程间通信（共享内存/信号量）</li>
+<li>使用strace/gdb进行调试（每周练习3次）</li>
+</ul>
+</li>
+</ul>
+<ol>
+<li><strong>网络基础（0.5个月）</strong></li>
+</ol>
+<ul>
+<li>掌握TCP/IP协议栈核心原理</li>
+<li>实现简单的HTTP服务器（使用socket API）</li>
+</ul>
+<h3 class="heading-element" id="第二阶段核心技术突破3-5个月"><span>第二阶段：核心技术突破（3-5个月）</span>
+  <a href="#%e7%ac%ac%e4%ba%8c%e9%98%b6%e6%ae%b5%e6%a0%b8%e5%bf%83%e6%8a%80%e6%9c%af%e7%aa%81%e7%a0%b43-5%e4%b8%aa%e6%9c%88" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ol>
+<li><strong>gRPC专项（1个月）</strong></li>
+</ol>
+<ul>
+<li>掌握Protocol Buffers高级用法</li>
+<li>实现双向流式通信案例（配合负载均衡）</li>
+<li>项目：构建微服务架构的订单系统（2周）</li>
+</ul>
+<ol>
+<li><strong>ROS开发（1.5个月）</strong></li>
+</ol>
+<ul>
+<li>ROS1 vs ROS2架构对比</li>
+<li>开发机器人运动控制节点</li>
+<li>项目：构建SLAM导航系统原型（3周）</li>
+</ul>
+<ol>
+<li><strong>系统优化（1.5个月）</strong></li>
+</ol>
+<ul>
+<li>内存泄漏检测（Valgrind实战）</li>
+<li>性能调优（perf工具链使用）</li>
+<li>项目：优化现有开源项目性能（如Nginx模块）</li>
+</ul>
+<h3 class="heading-element" id="第三阶段扩展技能2-3个月"><span>第三阶段：扩展技能（2-3个月）</span>
+  <a href="#%e7%ac%ac%e4%b8%89%e9%98%b6%e6%ae%b5%e6%89%a9%e5%b1%95%e6%8a%80%e8%83%bd2-3%e4%b8%aa%e6%9c%88" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ol>
+<li><strong>视频传输基础（1个月）</strong></li>
+</ol>
+<ul>
+<li>学习WebRTC核心架构</li>
+<li>实现简单的点对点视频传输（使用libavcodec）</li>
+<li>掌握H.264编码基础</li>
+</ul>
+<ol>
+<li><strong>云原生技术（1个月）</strong></li>
+</ol>
+<ul>
+<li>Docker容器网络原理</li>
+<li>编写多阶段构建Dockerfile</li>
+<li>Kubernetes基础操作（配合gRPC服务部署）</li>
+</ul>
+<ol>
+<li><strong>API设计（1个月）</strong></li>
+</ol>
+<ul>
+<li>学习Google API设计规范</li>
+<li>实现版本化API接口</li>
+<li>项目：设计物流追踪REST/gRPC混合API</li>
+</ul>
+<h3 class="heading-element" id="第四阶段求职准备1个月"><span>第四阶段：求职准备（1个月）</span>
+  <a href="#%e7%ac%ac%e5%9b%9b%e9%98%b6%e6%ae%b5%e6%b1%82%e8%81%8c%e5%87%86%e5%a4%871%e4%b8%aa%e6%9c%88" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ol>
+<li><strong>简历优化</strong></li>
+</ol>
+<ul>
+<li>突出架构优化和API设计经验</li>
+<li>准备3个技术深挖案例（每个案例500字技术细节）</li>
+</ul>
+<ol>
+<li><strong>面试专项训练</strong></li>
+</ol>
+<ul>
+<li>每日LeetCode中等难度题目（侧重系统设计）</li>
+<li>模拟技术面谈（重点准备网络编程和gRPC问题）</li>
+<li>设计API限流方案的现场coding测试</li>
+</ul>
+<h3 class="heading-element" id="学习资源推荐"><span>学习资源推荐</span>
+  <a href="#%e5%ad%a6%e4%b9%a0%e8%b5%84%e6%ba%90%e6%8e%a8%e8%8d%90" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">MARKDOWN1. 必读书目：
+</span></span><span class="line"><span class="cl">   - 《Effective Modern C++》
+</span></span><span class="line"><span class="cl">   - 《gRPC云原生应用开发》
+</span></span><span class="line"><span class="cl">   - 《ROS2机器人开发实战》
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">2. 在线课程：
+</span></span><span class="line"><span class="cl">   - Coursera: &#34;Advanced C++ Programming&#34;
+</span></span><span class="line"><span class="cl">   - Udemy: &#34;Mastering gRPC with Python and C++&#34;
+</span></span><span class="line"><span class="cl">   - ROS官方文档（ros2_documentation）
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">3. 开源项目：
+</span></span><span class="line"><span class="cl">   - Apache Thrift（对比学习gRPC）
+</span></span><span class="line"><span class="cl">   - ROS2 Navigation Stack
+</span></span><span class="line"><span class="cl">   - FFmpeg源码研究（视频传输方向）</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 class="heading-element" id="注意事项"><span>注意事项</span>
+  <a href="#%e6%b3%a8%e6%84%8f%e4%ba%8b%e9%a1%b9" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ol>
+<li>每周投入15-20小时系统学习（建议工作日2h/天，周末5h/天）</li>
+<li>建立GitHub技术博客，每月更新2篇技术文章</li>
+<li>参与1-2个开源项目贡献（重点选择gRPC或ROS相关项目）</li>
+<li>每两个月进行一次技能评估（使用HackerRank测试）</li>
+</ol>
+<p>这个计划特别强调架构优化和API设计能力的培养，建议在第六个月开始寻找中小型项目实践机会（如开源项目或朋友推荐项目）。记得定期回顾岗位JD，确保学习方向与实际需求保持一致。</p></div><div class="post-footer" id="post-footer">
+  <div class="post-info">
+    <div class="post-info-line">
+      <div class="post-info-mod">
+        <span title="更新于 2025-05-13 14:36:02">更新于 2025-05-13&nbsp;</span>
+      </div></div><div class="post-info-line">
+        <div class="post-info-md"><span><a href="/posts/38d6274/index.md" title="阅读原始文档" class="link-to-markdown">阅读原始文档</a></span><span><a href="vscode://file/D:%5cCollection%5cTechBlog%5ccontent%5cposts%5cC&#43;&#43;%e5%bc%80%e5%8f%91%e5%b7%a5%e7%a8%8b%e5%b8%88.md" title="在编辑器中打开"target="_blank" rel="external nofollow noopener noreferrer" class="link-to-vscode">在编辑器中打开</a></span></div>
+        <div class="post-info-share">
+          <span><a href="javascript:void(0);" title="分享到 X" data-sharer="twitter" data-url="http://localhost:1313/posts/38d6274/" data-title="C&#43;&#43;开发工程师" data-hashtags="draft"><i class="fa-brands fa-x-twitter fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="http://localhost:1313/posts/38d6274/" data-hashtag="draft"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="http://localhost:1313/posts/38d6274/" data-title="C&#43;&#43;开发工程师"><i class="fa-brands fa-weibo fa-fw" aria-hidden="true"></i></a>
+  </span>
+        </div>
+      </div></div>
+
+  <div class="post-info-more">
+    <section class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href="/tags/draft/" class="post-tag" title="标签 - Draft">Draft</a></section>
+    <section>
+      <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+    </section>
+  </div><div class="post-nav"><a href="/posts/3e78a2f/" class="post-nav-item" rel="prev" title="AI算法工程师"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i>AI算法工程师</a></div>
+</div>
+</article>
+
+  <aside class="toc" id="toc-auto" aria-label="目录"><h2 class="toc-title">目录&nbsp;<i class="toc-icon fa-solid fa-angle-down fa-fw" aria-hidden="true"></i></h2>
+      <div class="toc-content" id="toc-content-auto"></div></aside></main><footer class="footer">
+    <div class="footer-container"><div class="footer-line powered">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.147.2"><img class="hugo-icon" src="/images/hugo.min.svg" alt="Hugo logo" /> Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.3.21-a85a6655"><img class="fixit-icon" src="/images/fixit.min.svg" alt="FixIt logo" /> FixIt</a>
+        </div><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
+            <span itemprop="copyrightYear">2025</span><span class="author" itemprop="copyrightHolder">
+              <a href="/">赵容博</a></span></div></div>
+  </footer></div><div class="widgets"><div class="fixed-buttons animate__faster d-none"><div class="fixed-button back-to-top" role="button" aria-label="回到顶部"><i class="fa-solid fa-arrow-up fa-fw" aria-hidden="true"></i><span class="variant-numeric d-none">0%</span>
+        </div></div><div id="mask"></div><noscript>
+    <div class="noscript-warning">该网站在启用 JavaScript 的情况下效果最佳。</div>
+  </noscript>
+</div><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script src="/lib/sharer/sharer.min.js" async defer></script><script src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script>window.config={"code":{"copyTitle":"复制到剪贴板","editLockTitle":"锁定可编辑代码块","editUnLockTitle":"解锁可编辑代码块","editable":true,"maxShownLines":10},"comment":{"enable":false},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验。"},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"version":"v0.3.21-a85a6655"};console.log('Page config:', window.config);</script><script src="/js/theme.min.js" defer></script></body>
+</html>
