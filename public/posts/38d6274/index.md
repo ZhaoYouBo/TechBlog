@@ -131,5 +131,5 @@ MARKDOWN1. 必读书目：
 ---
 
 > 作者: 赵容博  
-> URL: http://localhost:1313/posts/38d6274/  
+> URL: https://zhaoyoubo.github.io/TechBlog/posts/38d6274/  
 
