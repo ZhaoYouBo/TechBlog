@@ -100,8 +100,8 @@ docker-compose up --build
 ### 将 ML Backend 连接到 Label-Studio
 
 1. 打开 Label Studio 实例。
-2. 转到项目的**设置。**
-3. 导航到**模型**选项卡。
+2. 转到项目的设置。
+3. 导航到模型选项卡。
 4. 通过输入 ML 后端 URL 连接到 ML 后端。
 
 ```powershell
