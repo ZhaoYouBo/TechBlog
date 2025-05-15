@@ -88,5 +88,5 @@ $env:HTTPS_PROXY = "http://127.0.0.1:7897"
 ---
 
 > 作者: ZhaoRongBo  
-> URL: https://zhaoyoubo.github.io/TechBlog/posts/35af15e/  
+> URL: http://localhost:1313/TechBlog/posts/35af15e/  
 

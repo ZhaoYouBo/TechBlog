@@ -18,6 +18,7 @@ tags:
   - draft
 categories:
   - draft
+collections:
 hiddenFromHomePage: false
 hiddenFromSearch: false
 hiddenFromRelated: false

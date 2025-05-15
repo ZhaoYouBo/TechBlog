@@ -20,6 +20,7 @@ tags:
   - 智能标注
 categories:
   - 机器视觉
+collections:
 hiddenFromHomePage: false
 hiddenFromSearch: false
 hiddenFromRelated: false
