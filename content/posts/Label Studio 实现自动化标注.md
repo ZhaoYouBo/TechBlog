@@ -1,7 +1,7 @@
 ---
-title: Label Studio
+title: Label Studio 实现自动化标注
 subtitle:
-date: 2025-05-15T09:08:09+08:00
+date: 2025-05-16T09:08:09+08:00
 slug: 35af15e
 draft: false
 author:
@@ -15,11 +15,10 @@ license:
 comment: false
 weight: 0
 tags:
-  - label-studio
+  - Label Studio
   - 数据标注
-  - 智能标注
 categories:
-  - 机器视觉
+  - 机器学习
 collections:
 hiddenFromHomePage: false
 hiddenFromSearch: false
